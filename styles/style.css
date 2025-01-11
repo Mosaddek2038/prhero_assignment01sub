@@ -272,7 +272,11 @@ section{
     align-items: center;
 }
 
-.donate .section-title, .section-description{
+.donate .section-title{
+    text-align: center;
+}
+
+.donate .section-description{
     text-align: center;
 }
 
@@ -309,7 +313,11 @@ section{
     
 }
 
-.subscribe .section-title, .section-description{
+.subscribe .section-title{
+    text-align: center;
+}
+
+.subscribe .section-description{
     text-align: center;
 }
 
