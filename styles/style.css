@@ -40,20 +40,34 @@
     padding: 0;
   }
 
+  body{
+    background-color: #F1F1F3;
+  }
+
   /* shared */
 .bg-primary{
     background-color: #C6E4D6;
 }
 
-.flex{
-    display: flex;
+.bg-lt-blu{
+    background-color: #83b5fc46;
 }
 
+.bg-lt-yl{
+    background-color: #F7EBCF;
+}
+
+/* .flex{
+    display: flex;
+} */
+
+.btn{
+    color: #FFFFFF;
+}
 .btn-primary{
     background-color: #006A50;
     border-radius: 8px;
     padding: 17px 34px;
-    color: #FFFFFF;
     border: none;
     font-weight: 600;
     font-size: 18px;
@@ -64,11 +78,21 @@ main{
     max-width: 1240px;
 }
 
+.section-title{
+    font-size: 40;
+}
+
+.section-description{
+    font-size: 16;
+    opacity: 0.70;
+}
+
 /* banner */
 .banner{
     align-items: center;
     border-radius: 24px;
     padding: 80px 100px;
+    display: flex;
 }
 
 .banner-subtitle{
@@ -82,4 +106,69 @@ main{
     margin-bottom: 24px;
 }
 
+/* future */
+.future-card-container{
+    margin: 32px 0px;
+    display: flex;
+    gap: 24px;
+}
 
+.future-card{
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.future-card-text{
+    margin: 24px 0px;
+}
+
+.future-card-title{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.future-card-btn-blu{
+    background-color: #5490F5;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+    font-size: 16px;
+}
+
+.future-card-btn-gr{
+    background-color: #09A15C;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+    font-size: 16px;
+}
+
+.future-card-btn-yl{
+    background-color: #FFC239;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+    font-size: 16px;
+}
+
+.future-quote{
+    padding: 48px 24px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.quote-content{
+    font-size: 16;
+    opacity: 0.80;
+    margin-bottom: 12px;
+}
+
+.quote-title{
+    font-size: 20;
+}
+
+.quote-subtitle{
+    font-size: 16;
+    opacity: 0.60;
+}
