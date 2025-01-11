@@ -77,6 +77,11 @@
     font-size: 18px;
 }
 
+.btn-primary:hover{
+    background-color: #5490F5;
+    border: 2px dashed mediumblue;
+}
+
 .btn-secondary{
     color: #006A50;
     background-color: #FFFFFF;
@@ -85,6 +90,12 @@
     border: 1px solid #006A50;
     font-weight: 600;
     font-size: 18px;
+}
+
+.btn-secondary:hover{
+    color: #FFFFFF;
+    background-color:#09A15C;
+    border: 2px dashed mediumblue;
 }
 
 /* header  */
@@ -260,6 +271,11 @@ section{
     flex-direction: column;
     align-items: center;
 }
+
+.donate .section-title, .section-description{
+    text-align: center;
+}
+
 .donate-card-container{
     display: flex;
     margin-bottom: 32px;
@@ -290,6 +306,11 @@ section{
     border-radius: 24px;
     padding: 80px 100px;
     align-items: center;
+    
+}
+
+.subscribe .section-title, .section-description{
+    text-align: center;
 }
 
 .subscribe form{
